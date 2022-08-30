@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
-    internal class PrimeiroPrograma {
+    internal class NotacaoPonto {
         public static void Executar() {
-            Console.Write("Primeiro ");
-            Console.WriteLine("Programa");
-            Console.WriteLine("Terminou");
+            var saudacao = "olá".ToUpper().Insert(3, " World!").Replace("World!", "Mundo!");
+            Console.WriteLine(saudacao);
+
         }
     }
 }

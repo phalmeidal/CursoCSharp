@@ -5,11 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
-    internal class PrimeiroPrograma {
+    internal class Comentarios {
         public static void Executar() {
-            Console.Write("Primeiro ");
-            Console.WriteLine("Programa");
-            Console.WriteLine("Terminou");
+            Console.WriteLine("Código claro é sempre melhor");
         }
     }
 }
