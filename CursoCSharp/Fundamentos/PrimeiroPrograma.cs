@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
-    internal class Class1 {
+    internal class PrimeiroPrograma {
+
     }
 }
